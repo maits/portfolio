@@ -1,0 +1,409 @@
+/*Really good start. Think about adding some padding 
+and margin to create a little more white space. 
+Also look for opportunities to not just consolidate 
+your code, but simplify it.*/
+
+/*Need to use responsive font units (ems, rems, percents)*/
+
+
+body {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light";
+  font-weight: 300;
+  font-size: 18px;
+  position: relative;
+}
+
+h1 {
+	color: #FFFFFF;
+	padding-left: 20px;
+	padding-top: 20px;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+body > h1 {
+  color:#3F3F3F;
+}
+
+
+p:last-child {
+  padding-bottom: 20px;
+}
+
+.container {
+  width: 1286px;
+}
+
+h2 {
+  font-family: Lobster;
+	color:#3F3F3F;
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+h3 {
+	color:#FFFFFF;
+	padding-top: 5px;
+	text-align: center; 
+}
+
+h4 {
+  font-family: Lobster;
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 15px;
+  padding-bottom: 10px;
+  color:#3F3F3F;
+}
+
+a {
+    color:  #3D0158;
+    text-decoration: none;
+}
+
+.talks-col p > a {
+   font-weight: 600;
+}
+
+.header > a {
+    color: #3D0158;
+    text-decoration: none;
+}
+
+.headline {
+	color:#3F3F3F;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+
+.headline > a {
+  color:#3F3F3F;
+}
+
+.headline > a:hover {
+  text-decoration: none;
+}
+
+.description{
+	margin-bottom: 20px;
+}
+
+.content {
+  text-align: center;
+  padding-bottom: 10px; 
+}
+
+.content > a {
+  color: #3D0158; 
+}
+
+#portfolio > h3 {
+  color:#3F3F3F;
+  font-weight: 200;
+  font-size: 22px;
+}
+
+.header {
+  background-color: #EFB68F;
+  padding: 0 50px 20px;
+}
+
+.header > h2 {
+  color: #3F3F3F;
+  width: 75%;
+  text-align: center;
+  margin: auto;
+}
+
+.header > h3 {
+  color: #3F3F3F;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+p {
+	padding-left: 0 20px;
+	color: #3F3F3F;
+}
+
+#navbar {
+    background-color: #3D0158;
+    font-size: 20px;
+    position: fixed;
+    top: 0;
+    /*  left: 0;*/
+   /* width: 100%;*/
+    width: 1256px;
+    z-index: 9998;
+    padding-bottom: 7px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #888888;
+}
+
+#navbar a:focus {
+  color: #3F3F3F;
+}
+
+ul li:first-child {
+  font-weight: bold;
+  font-size: 25px;
+  float: left;
+  padding-bottom: 10px;
+  padding-left: 15px;
+ /* position: fixed;*/
+
+}
+
+.nav-pills li {
+  height: auto;
+  padding-top: 10px;
+  float: right;
+  padding-bottom: 10px;
+}
+
+.nav-pills li { 
+	display: inline; 
+	color:#FFFFFF;
+  padding-top: 5px;
+/*  float: left;*/
+}
+
+.nav-pills a {
+    text-decoration: none;
+    color: #FFFFFF;
+    
+}
+
+#navbar a:hover {
+    color: #3F3F3F;
+}
+
+#nav-contact {
+  padding-right: 15px;
+}
+
+
+.profile-pic {
+    padding: 40px 0 20px;
+    margin-top: 70px;
+}
+
+
+.portfolio {
+  	background-color: #d3d3d3;
+  	text-align: center;
+  	font-size: 18px;
+   /* padding-top: 10px;*/   
+}
+
+.col > p {
+   padding: 0 22px;
+}
+
+.clips {
+	/*width: 1024px;*/
+  	background-color: #FFFFFF;
+
+}
+
+.talks {
+  background-color: #FFFFE0;
+  padding-bottom: 10px;
+}
+
+
+
+.talks-col {
+  width: 33.33%;
+  background-color: #FFFFE0;
+  float: left;
+  padding-bottom: 20px;
+}
+
+
+
+.talks-col > p {
+   padding: 0 22px;
+
+}
+
+
+
+
+.footer {
+	/*width: 1024px;*/
+	background-color: #3D0158;
+	font-style: Helvetica;
+	font-color: #FFFFFF;
+  width: 100%;
+  float: left;
+}
+
+img {
+    padding: 10px 0;
+}
+
+.col {
+  width: 33.33%;
+  background-color: #d3d3d3;
+  float: left;
+  padding-bottom: 20px;
+ /* height: 320px;*/
+}
+
+
+.clips-col {
+  width: 33.33%;
+  background-color: #FFFFFF;
+  float: left;
+   padding-bottom: 20px;
+
+/*  padding-bottom: 20px;
+  /*height: 300px;*/
+}
+
+.clips-col > p {
+  padding: 0 22px;
+}
+
+/*.half-col {
+  width: 50%;
+  /*background-color: #d3d3d3;*/
+/*  float: left;
+  background-color: #FFFFE0;
+  text-align: center;
+}*/
+
+.full-width-col{
+  width: 100%;
+}
+
+
+.about-me {
+  background-color:#EFB68F;
+}
+
+.mid-column {
+  background-color: #EFB68F;
+
+}
+
+.contact-me {
+  background-color: #d3d3d3;
+
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+input[type=text] {
+  border: 1px;
+  background-color:
+}
+
+
+
+#mail {
+  font-size: 23px;
+  padding: 10px 5px;
+  margin: 10px;
+  width: 100%;
+}
+
+#msg  {
+  font-size: 23px;
+  margin: 10px;
+/*  height: 120px;*/
+  padding: 5px 5px 150px;
+  width: 100%;
+}
+
+#name {
+  font-size: 23px;
+  margin: 10px;
+  padding: 5px;
+  width: 100%;
+
+}
+ 
+
+button {
+  margin-bottom: 40px;
+  border-radius: 2px;
+  color: #FFFFFF;
+  font-family: Lobster;
+  font-size: 35px;
+  padding: 5px;
+  margin-top: 20px;
+  border: 2px;
+  border-radius: 10px;
+  background-color: #888888 ;
+  padding: 0px 20px;
+/*  #3F3F3F;*/
+
+}
+
+button > a {
+    color: #FFFFFF;
+}
+
+button > a:hover {
+    color: #3F3F3F;
+    text-decoration: none;
+}
+
+/*responsive site starts here*/
+
+
+@media (max-width: 768px) {
+    .col {
+    	display: inline-block;
+    	width: 100%;
+    }
+
+    .clips-col {
+      display: inline-block;
+      width: 100%;
+    }
+
+    .talks-col {
+      display: inline-block;
+      width: 100%;
+    }
+
+    .full-width-col {
+      display: block;
+    }
+
+    h1 {
+      font-size: 1.3rem;
+    }
+
+    #header > h2 {
+      font-size: 4rem;
+    }
+    
+    #description {
+      font-size: 1rem;
+    }
+
+    form {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+}
+
+
+
+
+
+
+
